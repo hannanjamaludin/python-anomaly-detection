@@ -1,8 +1,8 @@
 # Efficient Data Stream Anomaly Detection
 
-## Chosen Algorithm: Z-score-based Anomaly Detection
+## Chosen Algorithm: Z-Score-Based Anomaly Detection
 
-The algorithm used for the Anomaly Detection is based on the Z-score. Also known as the standard score, it tells us the distance of a data point from the mean, measured in standard deviation units. In simple words, Z-Score portrays how far a data point is from the average of a group of values. 
+The algorithm used for the Anomaly Detection is based on the Z-Score. Also known as the standard Score, it tells us the distance of a data point from the mean, measured in standard deviation units. In simple words, Z-Score portrays how far a data point is from the average of a group of values. 
 
 ## Algorithm Steps:
 
