@@ -12,12 +12,12 @@ The algorithm used for the Anomaly Detection is based on the Z-score. Also known
 
     $$
     Z = \frac{X - \mu}{\sigma}
-    $$
 
     where: 
     - \( X \) is the data point
-    - \( $\mu$ \) is the mean of the values
-    - \( $\sigma$ \) is the standard deviation
+    - \( \mu \) is the mean of the values
+    - \( \sigma \) is the standard deviation
+    $$
 
 3. **Thresholding:** An anomaly is detected if the absolute value of the Z-Score exceeds a defined threshold, by default it is set as 3. This means the data point is more than 3 standard deviations away from the mean, indicating an unusual behavior.
 
