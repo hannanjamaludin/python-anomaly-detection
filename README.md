@@ -10,7 +10,9 @@ The algorithm used for the Anomaly Detection is based on the Z-score. Also known
 
 2. **Z-Score Calculation:** For each data point, Z-Score is calculated as:
 
-    $Z = \frac{X - \mu}{\sigma}$
+    $$
+    Z = \frac{X - \mu}{\sigma}
+    $$
 
     where: 
     - \( X \) is the data point
