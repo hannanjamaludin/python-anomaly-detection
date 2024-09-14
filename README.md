@@ -1,4 +1,4 @@
-# python-anomaly-detection
+# Efficient Data Stream Anomaly Detection
 
 ## Chosen Algorithm: Z-score-based Anomaly Detection
 
@@ -9,6 +9,7 @@ The algorithm used for the Anomaly Detection is based on the Z-score. Also known
 1. **Calculate Mean and Standard Deviation:** The algorithm calculates the mean and standard deviation of the data stream. The values represent the "normal" behavior of the data.
 
 2. **Z-Score Calculation:** For each data point, Z-Score is calculated as:
+
 $$
 Z = \frac{X - \mu}{\sigma}
 $$
@@ -27,3 +28,9 @@ Using Z-Score as an anomaly detection is simple yet effective for detecting outl
 **Advantages:**
 - The algorithm is computationally efficient and easy to implement
 - It is able to detect both positive and negative anomalies by looking at deviations from the mean
+
+
+## References
+- <https://www.simplypsychology.org/z-score.html>
+- <https://www.geeksforgeeks.org/z-score-for-outlier-detection-python/>
+- <https://www.geeksforgeeks.org/z-score-in-statistics/>
